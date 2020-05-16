@@ -1,2 +1,2 @@
-const testthis = require("components")
-testthis()()
+const component = require("components");
+component("hub -> component")

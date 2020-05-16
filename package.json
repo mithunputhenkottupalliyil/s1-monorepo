@@ -1,12 +1,15 @@
 {
     "private": true,
     "devDependencies": {
-        "lerna": "^3.20.2"
+        "lerna": "^3.21.0"
     },
     "name": "react-app",
     "scripts": {
         "bootstrap-x": "lerna bootstrap",
-        "test-x":"lerna run test --scope={components,utils}",
-        "dev-build" : "lerna run boom --scope=hub"
-    }
+        "test-x": "lerna run test --scope={components,utils, hub}",
+        "dev-build": "lerna run boom --scope=hub"
+    },
+    "workspaces": [
+        "packages/*"
+    ]
 }

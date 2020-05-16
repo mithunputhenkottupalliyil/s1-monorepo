@@ -1,3 +1,3 @@
-module.exports = () => {
-    console.log('you gained access to utils')
+module.exports = function(msg){
+    console.log('utils -> ' + msg)
 }

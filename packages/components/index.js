@@ -1,2 +1,4 @@
-const welcome = require("utils")
-module.exports = () => welcome;
+const log = require("utils")
+module.exports = function(msg){
+    log(msg + " components -> utils ");
+}

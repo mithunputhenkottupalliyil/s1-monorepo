@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test":"echo hello from components"
+    "test": "echo hello from components"
+  },
+  "dependencies": {
+    "utils": "1.0.0"
   }
 }
